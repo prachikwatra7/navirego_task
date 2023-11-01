@@ -1,0 +1,45 @@
+// This is scss file that is compiled as .css file and is used in the main file.
+// I have used the nesting of scss
+
+.errorMessage {
+  margin-top: 10px;
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+
+.checkbox {
+  display: flex;
+  gap: 20px;
+  margin: 50px;
+  flex-wrap: wrap;
+}
+
+.displayList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__heading {
+    margin-left: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  &__itemContainer {
+    width: 240px;
+    height: 240px;
+    border: 1px solid #009999;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__list {
+      display: flex;
+      gap: 2px;
+    }
+  }
+}

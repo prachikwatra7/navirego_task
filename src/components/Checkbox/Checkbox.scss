@@ -1,0 +1,28 @@
+// This is scss file for checkbox component that is compiled as .css file and is used in the main file.
+// I have used the nesting of scss
+
+.checkBox {
+  display: flex;
+  gap: 10px;
+  margin: 5px;
+  align-items: center;
+
+  &__container {
+    max-width: 20px;
+    max-height: 20px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+
+    &--inner {
+      width: 20px;
+      height: 20px;
+      border: 1px solid #009999;
+      background: #009999;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
